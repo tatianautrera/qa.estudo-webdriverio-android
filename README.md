@@ -1,1 +1,1 @@
-# qa.bugbank-webdriverio
+# qa.estudo-webdriverio-android
