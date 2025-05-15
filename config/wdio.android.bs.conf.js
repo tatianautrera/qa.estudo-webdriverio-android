@@ -8,7 +8,7 @@ config.key = process.env.BROWSERSTACK_KEY;
         '../test/specs/**/*.js'
     ]
 
-    config.services = ['browserstack'],
+    config.services = ['browserstack']
 
     config.capabilities=[
 {
