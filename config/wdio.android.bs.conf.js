@@ -18,7 +18,7 @@ config.key = process.env.BROWSERSTACK_KEY;
         'appium:platformVersion': '12.0',
         'appium:automationName': 'UiAutomator2',
        // 'appium:app': path.join(process.cwd(), 'app', 'android', 'ApiDemos-debug.apk')
-       'appium:app': "bs://04e95fb158ecee72c7444ab4030131d7c4985ea7",
+       'appium:app': "bs://f9d573a6109d7661dabb6baef21e0c4fc8200d11",
        "appium:autoGrantPermissions":true
     }
 ]
