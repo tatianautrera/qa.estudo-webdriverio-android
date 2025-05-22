@@ -6,7 +6,14 @@ config.port= 4723,
     config.specs= [
         '../test/specs/**/*.js'
     ]
-config.services = ['appium'],
+config.services = [['appium',{
+    args:{
+        address: 'localhost',
+        port: 4723,
+        relaxedSecurity: true
+    },
+    logPath: './'
+}]];
 
     config.capabilities=[
 {

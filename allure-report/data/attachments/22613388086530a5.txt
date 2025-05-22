@@ -1,0 +1,4 @@
+{
+  "using": "-android uiautomator",
+  "value": "new UiSelector().resourceId(\"com.socialnmobile.dictapps.notepad.color.note:id/title\")"
+}
